@@ -41,7 +41,7 @@ func (env *Environment) authVk(w http.ResponseWriter, r *http.Request) {
 	startTime := time.Now()
 	log.Println(r.RemoteAddr, "--> AuthVk", "("+r.Method+")")
 	defer func() {
-		log.Println(r.RemoteAddr, "<-- AuthVk", w.Header().Get("status"), "("+time.Now().Sub(startTime).String()+")")
+		log.Println(r.RemoteAddr, "<-- AuthVk", "("+time.Now().Sub(startTime).String()+")")
 	}()
 
 	if r.Method != http.MethodPost {
