@@ -1,0 +1,54 @@
+
+### Go ###
+*.dll
+*.dylib
+*.out
+*.exe
+*.test
+*.so
+.glide/
+vendor/
+
+
+
+### Linux ###
+*~
+.fuse_hidden*
+.nfs*
+.Trash-*
+.directory
+
+
+
+### MacOS ###
+*.DS_Store
+._*
+.apdisk
+.AppleDB
+.AppleDesktop
+.AppleDouble
+.com.apple.timemachine.donotpresent
+.DocumentRevisions-V100
+.fseventsd
+.LSOverride
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+Icon
+Network Trash Folder
+Temporary Items
+
+
+
+### Windows ###
+*.cab
+*.lnk
+*.msi
+*.msm
+*.msp
+$RECYCLE.BIN/
+Desktop.ini
+ehthumbs.db
+ehthumbs_vista.db
+Thumbs.db
